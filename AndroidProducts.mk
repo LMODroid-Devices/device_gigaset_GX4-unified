@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    lineage_GX4:$(LOCAL_DIR)/GX4/lineage_GX4.mk \
-    lineage_vidofnir:$(LOCAL_DIR)/vidofnir/lineage_vidofnir.mk
+    lmodroid_GX4:$(LOCAL_DIR)/GX4/lmodroid_GX4.mk \
+    lmodroid_vidofnir:$(LOCAL_DIR)/vidofnir/lmodroid_vidofnir.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_GX4-user \
-    lineage_GX4-userdebug \
-    lineage_GX4-eng \
-    lineage_vidofnir-user \
-    lineage_vidofnir-userdebug \
-    lineage_vidofnir-eng
+    lmodroid_GX4-user \
+    lmodroid_GX4-userdebug \
+    lmodroid_GX4-eng \
+    lmodroid_vidofnir-user \
+    lmodroid_vidofnir-userdebug \
+    lmodroid_vidofnir-eng
